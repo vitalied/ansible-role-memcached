@@ -1,2 +1,11 @@
 ---
 # defaults file for vitalied.memcached
+
+memcached_user: memcached
+
+memcached_listen_ip: 127.0.0.1
+memcached_port: 11211
+
+memcached_memory_limit: 64
+
+memcached_max_connections: 1024
